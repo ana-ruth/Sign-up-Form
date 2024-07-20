@@ -1,5 +1,4 @@
 
-
 html {
     height: 100%;
 }
@@ -41,17 +40,25 @@ body {
 }
 
 .main{
+    font-family: "Asap", sans-serif;
     flex: 0 0 40%;
     background-color: rgb(243, 243, 253);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
 
+.message{
+    padding: 2%;
 }
 
 .form{
+    width: 96%;
     background-color: rgb(255, 255, 255);
+    padding: 2%;
+    color:rgb(5, 21, 36);
+
 }
 
 .Info{
@@ -59,5 +66,22 @@ body {
     justify-content: flex-start;
 }
 
+.LogIn{
+    padding: 2%;
 
+}
+
+label{
+    font-size: 70%;
+}
+
+input{    
+    border: solid;
+    margin-right: 30px;
+    height: 40%;
+    border-radius: 5px;
+    border-color: rgb(212, 212, 221);
+    box-shadow: none;
+    border-width: 1px;
+}
 
